@@ -1,0 +1,6 @@
+company,service,offer_name,offer_duration_months,price_with_promotion,price_without_promotion,n_mobile_lines,minutes_mobile_calls,amount_mobile_gb,amount_fiber_mb,included_netflix,included_hbo,included_amazon_prime,included_disney_junior,included_foxnow,included_agiletv,included_dazn,insert_date
+yoigo,fibra y movil,Tarifa preocupate cero,3,62.0,72.0,2,llamadas infinitas,infinitas,600,False,False,False,False,False,False,False,2021-01-16 00:00:00
+Vodafone,tv,Movil + Fibra,3,31.99,64.99,1,200,4,300,False,True,True,False,True,False,False,2021-01-16 00:00:00
+Orange,tv,Love Total Sin Limites,3,52.48,104.95,2,llamadas ilimitadas,5,600,True,False,True,False,False,False,False,2021-01-16 00:00:00
+MASMOVIL,fibra y movil,Fibra y fijo movil 25 GB y llamadas ilimitadas,3,39.90,44.90,2,llamadas ilimitadas,3,100,False,False,False,False,False,False,False,2021-01-16 00:00:00
+Jazztel,fibra y movil,Fibra 100Mb + 2 lineas moviles,None,None,39.95,2,llamadas ilimitadas,5,100,False,False,False,False,False,False,False,2021-01-16 00:00:00
