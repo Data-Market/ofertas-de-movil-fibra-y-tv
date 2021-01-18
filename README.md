@@ -1,4 +1,4 @@
-# Ofertas-de-Móvil, Fibra y TV
+# Ofertas de Móvil, Fibra y TV
 
 Ofertas de fibra, móvil, televisión... de las principales compañías telco de España.Este dataset se puede adquirir en [Data Market](https://datamarket.es/#ofertas-de-movil,-fibra-y-tv-dataset), plataforma de referencia de datos externos en España. Puede consultar nuestro catálogo de datos en la siguiente url: [datamarket.es](https://datamarket.es/)
 
