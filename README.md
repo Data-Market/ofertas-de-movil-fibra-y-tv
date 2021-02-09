@@ -1,7 +1,7 @@
 # Datasets de Ofertas de Móvil, Fibra y TV
 
 <a href="https://datamarket.es">
-  <img src="https://datamarket.es/static/core/img/banners/noticias-economicas-banner.png">
+  <img src="https://datamarket.es/static/core/img/banners/ofertas-de-movil-fibra-y-tv-banner.png">
 </a>
 
 ## Descripción
