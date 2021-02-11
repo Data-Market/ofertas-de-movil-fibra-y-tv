@@ -29,23 +29,47 @@ La muestra se encuentra disponible para descarga en el siguiente [link](https://
 
 A continuación se muestran las columnas de las que consta el dataset en el formato __nombre_columna__: __ejemplo_columna__, donde ejemplo_columna representa posibles valores que se pueden encontrar en dicha columna.
 
-| nombre                  | tipo     | descripción                                                                                                                      | ejemplo                |
-|-------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------|------------------------|
-| company                 | str      | Compañías de telecomunicaciones que ofertan los productos (encriptado). Este campo será visible tras la subscripción al dataset. | 2021-01-16 17:18:00    |
-| service                 | str      | Tipo de servicios que promociona cada oferta de productos.                                                                       | False                  |
-| offer_name              | str      | Nombre de la oferta.                                                                                                             | False                  |
-| offer_duration_months   | int      | Duración de la oferta para cada producto telco.                                                                                  | False                  |
-| price_with_promotion    | float    | Precio del producto con la promoción aplicada.                                                                                   | False                  |
-| price_without_promotion | float    | Precio del producto sin la promoción aplicada.                                                                                   | False                  |
-| n_mobile_lines          | int      | Número de líneas de móviles ofertadas en cada promoción.                                                                         | False                  |
-| minutes_mobile_calls    | str      | Cantidad de minutos de llamadas para móviles según promoción.                                                                    | False                  |
-| amount_mobile_gb        | str      | Cantidad de GB que ofrece la promoción en móviles.                                                                               | 600                    |
-| amount_fiber_mb         | int      | Cantidad de Mb que ofrece la fibra de casa promoción.                                                                            | infinitas              |
-| included_netflix        | bool     | Incluye o no Netflix a las promociones.                                                                                          | infinitas              |
-| included_hbo            | bool     | Incluye o no HBO a las promociones.                                                                                              | 2                      |
-| included_amazon_prime   | bool     | Incluye o no Amazon Prime Video en cada promoción.                                                                               | 72.0                   |
-| included_disney_junior  | bool     | Incluye o no Disney Junior en cada promoción.                                                                                    | 62.0                   |
-| included_foxnow         | bool     | Incluye o no FOXNOW en cada promoción.                                                                                           | 3                      |
-| included_agiletv        | bool     | Incluye o no agiletv en cada promoción.                                                                                          | Tarifa preocúpate cero |
-| included_dazn           | bool     | Incluye o no DAZN en cada promoción.                                                                                             | fibra y móvil          |
-| insert_date             | datetime | Fecha de extracción de la información.                                                                                           | yoigo                  |
+| nombre | tipo | descripción | ejemplo |
+|--------|------|-------------|---------|
+| champions_league | bool | Incluye o no la Champions League. | False |
+| children | bool | Incluye o no canales infantiles. | True |
+| cinema_and_series | bool | Incluye o no promoción de cine y series. | True |
+| company_name | str | Compañía de telecomunicaciones que oferta los productos. | masmovil |
+| date | datetime | Fecha de publicación de la oferta. | 2021-02-08 |
+| documentary | bool | Incluye o no canal de documentales. | True |
+| fixed_to_fixed_calls_minutes | int | Minutos de fijo a fijo disponibles. | 999999999 |
+| fixed_to_fixed_calls_text | str | Descripción de la oferta de llamadas fijo a fijo. | Llamadas ilimitadas a fijos y 60mins a móviles |
+| fixed_to_mobile_calls_minutes | int | Minutos de fijo a móviles diponibles. | 60 |
+| fixed_to_mobile_calls_text | str | Descripción de la oferta de llamada fijo a móviles. | Llamadas ilimitadas a fijos y 60mins a móviles |
+| hbo | bool | Incluye o no HBO. | False |
+| internet_4g | bool | Incluye o no línea 4G. | False | 
+| internet_download_speed_mb | int | Velocidad de descarga en Mb. | 100 |
+| internet_fiber | bool | Incluye o no fibra. | True |
+| internet_text | str | Descripción de la velocidad de descargas para cada oferta. | 100Mb Fibra Óptica |
+| internet_upload_speed_mb | int | Velocidad de subida en Mb. | 100 |
+| liga | bool | Incluye o no La Liga. | False |
+| lines_included | int | Número de líneas móviles incluidas. | 1 |
+| mobile_additional_line | int | Número de líneas móviles adicionales. | 1 |
+| mobile_additional_line_fee | int | Coste de la línea móvil adicional. | 0 |
+| mobile_additional_line_text | str | Descripción de la oferta de las líneas móviles adicionales. | 2ª Línea Gratis para siempre con 3GB y llamadas ilimitadas. Además línea Extra de 3GB gratis dura... |
+| mobile_download_capacity | int | Límite de descargas en móviles. | 5 |
+| mobile_download_capacity_unit | str | Unidad de medida del límite de descarga. | GB |
+| mobile_download_text | str | Descripción de la oferta del límite de descarga. | 5GB y llamadas ilimitadas |
+| mobile_minutes | int | Cantidad de minutos de llamadas para móvil disponibles. | 999999999 |
+| mobile_minutes_text | str | Descripción de la promoción de minutos para móviles disponibles. | 5GB y llamadas ilimitadas |
+| movistar_tv | bool | Incluye o no el canal de movistar TV. | True |
+| netflix | bool | Incluye o no Netflix. | False |
+| network | str | Nombre del proveedor de red. | MásMóvil |
+| offer_type | str | Tipo de oferta. | internet+fijo+móvil+tv |
+| permanence_months | int | Número de meses de permanencia. | 3 |
+| price_final_annual | float | Precio anual. | 514.80 |
+| price_final_monthly | float | Precio mensual. | 42.90 |
+| price_promotional | float | Precio de promoción. | None | 
+| price_promotional_months | int | Número de meses que aplica la promoción. | 0 |
+| price_text | str | Descripción detallada del precio. | None |
+| product_name | str | Nombre de la oferta. | Fibra 100Mb, 5GB y 2ª linea gratis (3GB) + Agile TV |
+| promo | str | Descripción de la promoción. | 2ª Linea Gratis para siempre con 3GB y llamadas ilimitadas. El resto de líneas adicionales 50% de... |
+| rakuten_tv | bool | Incluye o no Rakuten TV. | False |
+| roaming | str | Descripción de las características del roaming. | Roaming Incluido en la Unión Europea |
+| tv_channel_number | int |  Número de canales de televisión disponibles. | 40 |
+| tv_channel_text | str | Descripción detallada de los canales de televisión disponibles. | Rakuten TV (1500 pelis y series), ademas añade las mejores apps en tu tele, netfilx, primer video... |
