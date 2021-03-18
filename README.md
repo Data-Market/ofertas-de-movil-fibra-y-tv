@@ -11,8 +11,8 @@ Ofertas de fibra, móvil, televisión... de las __principales compañías telco 
 Las características de este dataset son las siguientes:
 
 * __Frecuencia de actualización__: diariamente
-* __Volumen estimado__: 
-* __Histórico__: 
+* __Volumen estimado__: 300 registros cada día 
+* __Histórico__: disponible desde febrero de 2021 en adelante
 
 El dataset completo se puede adquirir en [DataMarket](https://datamarket.es/#ofertas-de-movil,-fibra-y-tv-dataset), plataforma de referencia de datos externos en España. 
 
